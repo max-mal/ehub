@@ -1,0 +1,67 @@
+.branch_list {
+    border: 1px solid #cccccc;
+    padding: 5px;
+    border-radius: 9px;
+    overflow: auto;
+    max-height: 80vh;
+}
+
+.branch_list__item {
+    padding: 5px;
+    border-bottom: 1px solid #ececec;
+    cursor: pointer;
+}
+
+.branch_list__item:hover {}
+
+.branch_list__item:hover {
+    background: #e8e8e8;
+    border-radius: 7px;
+}
+
+.files_list__header {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 7px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #cacaca;
+}
+
+.files_list__item__icon {
+    display: inline-block;
+}
+
+.files_list__item__name {
+    display: inline-block;
+}
+
+.files_list__item {
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.files_list__item:hover {
+    background: #d0d0d0;
+}
+
+.files_list__branch {font-size: 17px;}
+
+.files_list__dir {cursor: pointer;transition: all 0.3s;}
+
+.files_list__dir:hover {
+    background: #cccccc;
+    padding: 5px;
+}
+
+.files_list__item__commit {
+    color: #656565;    
+}
+
+.files_list__item__commit:hover {
+    text-decoration: underline;
+}
+
+#ace_editor {
+    height: 90vh;
+}

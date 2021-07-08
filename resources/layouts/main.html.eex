@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title><%=title%></title>
+    <meta name="description" content="<%=description%>">
+    <link rel="stylesheet" href="<%=webpack("app.css")%>">
+  </head>
+  <body>
+
+  	<%=raw render("partials/nav.", [user: user]) %>
+
+    <div class="mt-2">
+
+      <%=raw content%>
+
+    </div><!-- /.container -->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script type="text/javascript" src="<%=webpack("main.js")%>"></script>
+
+  </body>
+</html>

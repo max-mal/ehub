@@ -1,0 +1,9 @@
+<div class="container text-center">
+  <%= if user do%>
+    <h3>Привет, <%=user.first_name%> <%=user.last_name%> <%=user.email%></h3>
+    <a href="/auth/logout" class="btn btn-secondary">Выйти</a>
+  <% else %>
+    <a href="/auth/login" class="btn btn-primary">Вход</a>
+    <a href="/auth/signup" class="btn btn-secondary">Регистрация</a>
+  <% end %>
+</div>

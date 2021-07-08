@@ -1,0 +1,26 @@
+<script type="text/javascript" src="<%=webpack("project.js")%>" defer></script>
+
+<div class="m-4">
+	<div class="row">
+		<div class="col-md-9">
+			<h3>Проект: <%=project.namespace%>/<%=project.name%></h3>
+		</div>
+		<div class="col-md-3">
+			<a href="/project/<%=project.namespace%>/<%=project.name%>/edit" class="btn btn-secondary">Изменить</a>
+		</div>
+	</div>
+	<hr>	
+	<p><%=project.description%></p>
+
+	<div id="project_container">
+	  <div class="row">
+	  	<div class="col-md-3">
+	  		<branch-list name="<%=project.name%>" namespace="<%=project.namespace%>"/>
+	  	</div>
+	  	<div class="col-md-9">
+	  		<files-list name="<%=project.name%>" namespace="<%=project.namespace%>"/>
+	  	</div>
+	  </div>
+	</div>
+	
+</div>

@@ -1,0 +1,4 @@
+<div class="text-center">
+	<h1>Ошибка на странице</h1>
+	<%# <p><%=Kernel.inspect(error)%></p>
+</div>

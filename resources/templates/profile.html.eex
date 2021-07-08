@@ -1,0 +1,14 @@
+<div class="container text-center login">
+	<h3>Профиль</h3>
+	<form method="POST">
+		<input class="form-control mb-2" type="text" name="email" placeholder="Email" readonly value="<%=user.email%>">
+		<input class="form-control mb-2" type="text" name="first_name" placeholder="Имя" value="<%=user.first_name%>">
+		<input class="form-control mb-2" type="text" name="last_name" placeholder="Фамилия" value="<%=user.last_name%>">
+		<label>Обо мне</label>
+		<textarea class="form-control mb-2" name="about"><%=user.about%></textarea>
+		<input class="form-control mb-2" type="password" name="password" placeholder="Пароль">
+		<input class="form-control mb-2" type="password" name="password_confirm" placeholder="Подтверждение">
+
+		<button class="btn btn-primary">Изменить</button>		
+	</form>
+</div>

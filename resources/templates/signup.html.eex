@@ -1,0 +1,11 @@
+<div class="container text-center login">
+	<h3>Регистрация</h3>
+	<form method="POST">
+		<input class="form-control mb-2" type="text" name="email" placeholder="Email" required>
+		<input class="form-control mb-2" type="password" name="password" placeholder="Пароль" required>
+		<input class="form-control mb-2" type="password" name="password_confirm" placeholder="Подтверждение" required>
+
+		<button class="btn btn-primary">Зарегистрироваться</button>
+		<p class="mt-2"><a href="/login">Вход</a></p>
+	</form>
+</div>

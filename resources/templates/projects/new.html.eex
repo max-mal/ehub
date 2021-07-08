@@ -1,0 +1,9 @@
+<div class="container text-center login">
+	<h3>Создать проект</h3>
+	<form method="POST">
+		<input class="form-control mb-2" type="text" value="<%=user.username%>" readonly>
+		<input class="form-control mb-2" type="text" name="name" placeholder="Название" required>
+
+		<button class="btn btn-primary">Создать</button>
+	</form>
+</div>

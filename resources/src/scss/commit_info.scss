@@ -1,0 +1,27 @@
+.files_list__file {
+    background: #80808073;
+    padding: 20px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.addition_marker {
+    background: #00800094;
+    position: absolute;
+}
+
+.deletion_marker {
+    background: #80000094;
+    position: absolute;
+}
+
+.files_list__file__desc {
+    background: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.files_list__file__hunk__signature {
+    margin: 5px;
+    color: blue;
+}

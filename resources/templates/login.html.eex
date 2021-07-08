@@ -1,0 +1,10 @@
+<div class="container text-center login">
+	<h3>Вход в систему</h3>
+	<form method="POST">
+		<input class="form-control mb-2" type="text" name="login" placeholder="Логин или email" required>
+		<input class="form-control mb-2" type="password" name="password" placeholder="Пароль" required>
+
+		<button class="btn btn-primary">Войти</button>
+		<p class="mt-2"><a href="/auth/signup">Регистрация</a></p>
+	</form>
+</div>

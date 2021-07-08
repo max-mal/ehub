@@ -1,0 +1,14 @@
+<script type="text/javascript" src="<%=webpack("commit_info.js")%>" defer></script>
+<div class="container">
+	<div class="row">
+		<div class="col-md-9">
+			<h3>Проект: <%=project.namespace%>/<%=project.name%></h3>
+		</div>
+	</div>
+	<hr>
+	<div id="commit_info_container">
+        <commit-info namespace="<%=project.namespace%>"
+            name="<%=project.name%>"
+            hash="<%=hash%>" />
+    </div>
+</div>
